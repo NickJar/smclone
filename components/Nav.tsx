@@ -30,6 +30,12 @@ const nav = () => {
           <div></div>
           <div className="text-lg text-white">smclone</div>
         </div>
+        <div className="flex flex-1 max-w-2xl">
+          <input
+            className="flex p-1 pl-4 mr-6 flex-1 bg-[rgba(255,255,255,0.3)] border-2 text-white placeholder:text-white border-sky-200 rounded-full"
+            placeholder="search"
+          />
+        </div>
         <div className="text-4xl text-white pr-6">=</div>
       </div>
     </div>
