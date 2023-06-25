@@ -16,7 +16,10 @@ export default function RootLayout({
     <html lang="en">
       <body className=" w-full h-screen bg-gradient-to-r from-cyan-500 to-blue-500">
         <Nav />
-        <div className="flex flex-col items-center w-full pt-5">{children}</div>
+        {/* <Sidebar /> */}
+        <div className="flex flex-col overflow-auto items-center w-full pt-5">
+          {children}
+        </div>
       </body>
     </html>
   );

@@ -1,10 +1,9 @@
 import Card from "@/components/Card";
-import img1 from "../images/img1.jpg";
 
 const mockData = [
   {
-    title: "Title",
-    description: "Description",
+    title: "Sierra Nevada",
+    description: "A combination of greenery and rocky mountains",
     image: "/images/img1.jpg",
     id: 1,
   },
@@ -19,7 +18,7 @@ const mockData = [
 export default function Home() {
   console.log(mockData);
   return (
-    <div className="flex flex-col justify-center gap-5">
+    <div className="flex overflow-auto flex-col justify-center gap-5">
       {mockData.map((data): any => {
         return (
           <div key={data.id}>

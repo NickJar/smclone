@@ -1,12 +1,21 @@
 import React from "react";
+import Image from "next/image";
 
 const nav = () => {
   return (
-    <div className="bg-[rgba(255,255,255,0.3)] shadow-lg shadow-black-500/50 h-14 w-full flex rounded-br-md rounded-bl-md">
+    <div className="bg-[rgba(255,255,255,0.3)] sticky top-0 shadow-lg shadow-black-500/50 h-18 w-full flex rounded-br-md">
       <div className="sm:flex hidden pl-3 pr-3 items-center justify-between w-full">
         <div className="pl-6 pr-6 flex gap-2">
-          <div></div>
-          <div className="text-lg text-white">smclone</div>
+          <div>
+            <Image
+              className=""
+              width={100}
+              height={100}
+              src="/images/logo.GIF"
+              alt=""
+            />
+          </div>
+          {/* <div className="text-lg text-white">smclone</div> */}
         </div>
 
         <div className="flex flex-1 max-w-2xl">
@@ -27,8 +36,16 @@ const nav = () => {
       </div>
       <div className="sm:hidden flex items-center justify-between w-full">
         <div className="pl-6 pr-6 flex gap-2">
-          <div></div>
-          <div className="text-lg text-white">smclone</div>
+          <div>
+            <Image
+              className=""
+              width={100}
+              height={100}
+              src="/images/logo.GIF"
+              alt=""
+            />
+          </div>
+          {/* <div className="text-lg text-white">smclone</div> */}
         </div>
         <div className="flex flex-1 max-w-2xl">
           <input
